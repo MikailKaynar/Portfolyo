@@ -46,7 +46,7 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl ">
           <Link onClick={menuHandle} to="skills" smooth={true} duration={500}>
-            Yeteneklerim
+            Deneyimlerim
           </Link>
         </li>
         <li className="py-6 text-4xl ">

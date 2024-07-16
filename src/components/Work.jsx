@@ -2,18 +2,20 @@ import React from "react";
 import archatapp from "../assets/archatap.png";
 import armarkap from "../assets/armarkap.png";
 import artodoap from "../assets/artodoap.png";
+import armovieap from "../assets/armovieapp.png";
+import arpokeap from "../assets/poke.png";
 const Work = () => {
   return (
     <div
       name="work"
-      className="bg-[#E6EBE0] w-full md:h-screen text-gray-300 flex"
+      className="bg-[#E6EBE0] w-full md:h-full text-gray-300 flex"
     >
-      <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1170px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 mt-28 sm:mt-40 md:mt-80 lg:mt-32   ">
           <p className="text-4xl font-bold inline border-b-4 text-[#4c979c] border-[#FCA311]">
             Projelerim
           </p>
-          <p className="text- py-6 text-[#14213D]">
+          <p className="py-4 text-[#7dbbb3] text-xl drop-shadow-lg">
             Yaptığım bazı projelere gözat
           </p>
         </div>
@@ -114,6 +116,69 @@ const Work = () => {
               <p className="mt-3 transition-all duration-300">
                 Basit ve kullanıcı dostu bir yapılacaklar listesi uygulaması
                 tasarladım. Kullanıcılar tamamladıklarını kolayca silebilir
+              </p>
+            </div>
+          </div>
+          <div className="w-80 p-6 bg-[#14213D] m-auto rounded-md hover:rounded-none hover:shadow-2xl hover:scale-110 md:hover:scale-125 hover:bg-opacity-95 duration-500">
+            <div className="h-96 group">
+              <div className="relative ">
+                <img
+                  className="rounded-md w-full object-contain relative "
+                  src={armovieap}
+                />
+                <div className="absolute h-16 w-full bg-[#E5E5E5]/20 flex gap-2 items-center justify-center -bottom-60 group-hover:-bottom-16 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <a
+                    href="https://github.com/MikailKaynar/NextMovie"
+                    target="_blank"
+                  >
+                    <button className="bg-[#FCA311] text-white py-1 px-2 text-sm rounded-ss-lg">
+                      Code
+                    </button>
+                  </a>
+                  <a href="https://armovieapp.netlify.app" target="_blank">
+                    <button className="bg-[#FCA311] text-white py-1 px-2 text-sm rounded-ee-lg">
+                      Demo
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <h2 className="mt-12 group-hover:mt-16 transition-all duration-300 text-2xl">
+                Armovieap
+              </h2>
+              <p className="mt-3 transition-all duration-300">
+              Film tutkunları için en çok izlenen, popüler dizi filmleri takip
+              edebileceği filmin konusuna, posterine bakabileceği bir site hazırladım.
+              </p>
+            </div>
+          </div>
+          <div className="w-80 p-6 bg-[#14213D] m-auto rounded-md hover:rounded-none hover:shadow-2xl hover:scale-110 md:hover:scale-125 hover:bg-opacity-95 duration-500">
+            <div className="h-96 group">
+              <div className="relative ">
+                <img
+                  className="rounded-md w-full object-contain relative "
+                  src={arpokeap}
+                />
+                <div className="absolute h-16 w-full bg-[#E5E5E5]/20 flex gap-2 items-center justify-center -bottom-60 group-hover:-bottom-16 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <a
+                    href="https://github.com/MikailKaynar/PokeApp"
+                    target="_blank"
+                  >
+                    <button className="bg-[#FCA311] text-white py-1 px-2 text-sm rounded-ss-lg">
+                      Code
+                    </button>
+                  </a>
+                  <a href="https://arpokeap.netlify.app" target="_blank">
+                    <button className="bg-[#FCA311] text-white py-1 px-2 text-sm rounded-ee-lg">
+                      Demo
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <h2 className="mt-12 group-hover:mt-16 transition-all duration-300 text-2xl">
+                Arpokeap
+              </h2>
+              <p className="mt-3 transition-all duration-300">
+              Pokemonların listesini görebileceğiniz, özelliklerine, türlerine bakabileceğiniz bir site.
               </p>
             </div>
           </div>
